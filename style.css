@@ -1,0 +1,50 @@
+.plane{
+    width: 100px;
+    height: auto;
+    position: relative;
+    /* background: red; */
+}
+
+.plane img{
+    width: 100px;
+    height: auto;
+}
+
+.turnUp{
+    transform: rotateY(180deg);
+}
+
+.turnDown{
+    transform: rotateY(360deg);
+}
+
+.turnRight{
+    transform: scaleX(-1);
+}
+
+.turnLeft{
+    transform: scaleX(-1);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#rots{
+    width: 200px;
+    height: 300px;
+    background: black;
+    margin-left: 70%;
+    margin-top: -1%;
+    opacity: 50%;
+    
+}
